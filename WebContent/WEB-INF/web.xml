@@ -19,4 +19,14 @@
     <servlet-name>FirstServlet</servlet-name>
     <url-pattern>/FirstServlet</url-pattern>
   </servlet-mapping>
+  <servlet>
+    <description></description>
+    <display-name>NameServlet</display-name>
+    <servlet-name>NameServlet</servlet-name>
+    <servlet-class>com.training.servlet.NameServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>NameServlet</servlet-name>
+    <url-pattern>/NameServlet</url-pattern>
+  </servlet-mapping>
 </web-app>
